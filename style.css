@@ -1,0 +1,67 @@
+header div
+{
+	width: 230px;
+	margin: 30px auto;
+}
+
+header button
+{
+	font-size: larger;
+	margin-left: 20px;
+}
+
+header
+{
+	text-align: center;
+	font-family:'Lucida Sans';
+}
+
+.main
+{
+	margin-top: 100px;;
+}
+
+#game{
+	margin-right: 20px;
+	padding: 20px;
+	min-width: 100px;
+	border: 10px solid transparent;
+	border-image: url('https://picsum.photos/300') 20 round;
+}
+
+.dot {
+	height: 8px;
+	width: 8px;
+	background-color: rgb(0 0 0);
+}
+
+.h-line {
+	height: 8px;
+	width: 50px;
+	border: 2px;
+}
+
+.v-line{
+	height: 50px;
+	width: 8px;
+	border: 2px;
+}
+
+.box{
+	width: 50px;
+}
+
+.h-line:hover, .v-line:hover{
+	cursor: pointer;
+}
+
+.hover0
+{
+	background-color: blue;
+}
+
+.hover1
+{
+	background-color: red;
+}
+style.css
